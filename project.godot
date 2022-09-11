@@ -1,0 +1,61 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "Reference",
+"class": "WithRandom",
+"language": "GDScript",
+"path": "res://Common/WithRandom.gd"
+} ]
+_global_script_class_icons={
+"WithRandom": ""
+}
+
+[application]
+
+config/name="Pong"
+run/main_scene="res://Game/Game.tscn"
+boot_splash/show_image=false
+boot_splash/image="res://icon.png"
+boot_splash/fullsize=false
+boot_splash/use_filter=false
+config/icon="res://icon.ico"
+config/windows_native_icon="res://icon.ico"
+
+[debug]
+
+settings/fps/force_fps=160
+settings/stdout/print_fps=true
+
+[display]
+
+window/size/width=1000
+window/size/height=500
+window/size/resizable=false
+window/size/borderless=true
+window/dpi/allow_hidpi=true
+window/per_pixel_transparency/allowed=true
+window/per_pixel_transparency/enabled=true
+
+[gui]
+
+common/drop_mouse_on_gui_input_disabled=true
+
+[physics]
+
+common/enable_pause_aware_picking=true
+
+[rendering]
+
+2d/options/use_nvidia_rect_flicker_workaround=true
+2d/snapping/use_gpu_pixel_snap=true
+quality/filters/anisotropic_filter_level=10
+quality/filters/use_fxaa=true
+environment/default_environment="res://default_env.tres"

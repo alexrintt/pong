@@ -1,0 +1,31 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Game/Game.gd" type="Script" id=1]
+[ext_resource path="res://Sfx/impact.mp3" type="AudioStream" id=2]
+[ext_resource path="res://Sfx/point.mp3" type="AudioStream" id=3]
+[ext_resource path="res://Fonts/fff.ttf" type="DynamicFontData" id=4]
+
+[sub_resource type="DynamicFont" id=1]
+font_data = ExtResource( 4 )
+
+[node name="Game" type="Node2D"]
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_vertical_guides_": [  ]
+}
+
+[node name="PointSfx" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 3 )
+
+[node name="ImpactSfx" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 2 )
+
+[node name="Label" type="Label" parent="."]
+margin_left = 259.0
+margin_top = 296.0
+margin_right = 298.0
+margin_bottom = 357.0
+custom_fonts/font = SubResource( 1 )
+text = "0"
+align = 1
+valign = 1

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/point.mp3-c797f17ddd110862ea3f1c8973d8974e.mp3str"
+
+[deps]
+
+source_file="res://Sfx/point.mp3"
+dest_files=[ "res://.import/point.mp3-c797f17ddd110862ea3f1c8973d8974e.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0
