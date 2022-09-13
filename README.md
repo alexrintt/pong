@@ -40,9 +40,9 @@ Take a look how to controls the game mode and settings.
 
 ### Settings
 
-- <kbd>1</kbd> Set _acceleration mode_ (Up and down are now based on acceleration).
-- <kbd>2</kbd> Set _linear mode_ (Up and down are now based on a constant velocity).
-- <kbd>R</kbd> Resets the counter.
+- <kbd>1</kbd> set _acceleration mode_ (Up and down are now based on acceleration).
+- <kbd>2</kbd> set _linear mode_ (Up and down are now based on a constant velocity).
+- <kbd>R</kbd> resets the counter.
 
 <br><br>
 
